@@ -1,0 +1,11 @@
+label{
+    display: block;
+    text-align: center;
+}
+button{
+    background-color: transparent;
+    border: 1px solid black;
+    padding:2px 20px;
+    margin-left: 5px;
+    cursor: pointer;
+}

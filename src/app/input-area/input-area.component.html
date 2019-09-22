@@ -1,0 +1,4 @@
+<label>Wpisz zadanie do zrobienia: <input type="text" (input)='handleInput($event)'> <button type='submit'
+                (click)="addTask($event)">Dodaj</button></label>
+
+<app-list [tasks]="tasks"></app-list>
